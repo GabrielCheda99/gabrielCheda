@@ -1,44 +1,64 @@
 <!DOCTYPE_HTML>
 <html lang="pt-br">
+
 <head>
 	<meta charset="utf-8">
 	<title>Portfólio - Gabriel Cheda</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta keywords="GabrielCheda">	
+	<meta keywords="GabrielCheda">
 	<style>
-	ol#menu li {
-		display:inline;
-		padding:20px;	}
+		ul#menu li {
+			list-style-type: none;
+			padding: 10px;
+			display: inline;
+		}
+		
+		ul#menu li a{
+			text-decoration: none;
+		}
+
+		img#RS {
+			padding: 0px;
+			width: 45px;
+			height: 41px;
+			position:relative;
+		}
+
+
+		p {
+			padding: 10px;
+		}
 	</style>
 </head>
+
 <body>
 	<thead>
 		<H1>Gabriel Cheda</H1>
-	</thead>	
-
+	</thead>
 	<tbody>
-		<table border="1">
+		<table border="1" style="float:inherit">
 			<tr>
 				<td><img src="Gabriel.png" height="200px" alt="imagem html"></td>
 				<td>
 
 					<p>Desenvolvendo Front e Back end utilizando as tecnologias : Asp.Net MVC 5 e MySql 6.3</p>
-					<p> (Back End), Jquery e Bootstrap (Front End). Utilização de formas de trabalho Ágeis como</p> 
-					<p>Scrum.</p></td>
-				</tr>
-
-			</table>
-		</tbody>
-		<tfooter>
-			<tr>
-				<td>
-					<ol id="menu">
-						<li><a href="https://www.linkedin.com/in/gabriel-cheda-33423b96/"/>Linkedin</li>
-						<li><a href="www.facebook.com/GabrielCheda"/>Facebook</li>
-						<li><a href="www.instagram.com/GabrielCheda"/>Instagram</li>
-					</ol>
+					<p>(Back End), Jquery e Bootstrap (Front End). Utilização de formas de trabalho Ágeis como</p>
+					<p>Scrum.</p>
 				</td>
 			</tr>
-		</tfooter>
-	</body>
-	</html>
+		</table>
+	</tbody>
+	<tfoot>
+		<tr>
+			<td>
+				<ul id="menu">
+					<li><a href="https://www.linkedin.com/in/gabriel-cheda-33423b96/"><img src="linkedinimg.png" id="rs" alt="Linkedin"></a></li>
+					<li><a href="http://www.facebook.com/GabrielCheda" ><img src="facebookimg.png" id="rs" alt="Facebook"></a></li>
+					<li><a href="http://www.instagram.com/GabrielCheda"><img src="instagramimg.jpg" id="rs" alt="Instagram"></a></li>
+				</ul>
+			</td>
+		</tr>
+	</tfoot>
+</body>
+
+</html>
